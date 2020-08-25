@@ -1,0 +1,277 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+/* section 1 */
+.container{
+    background-color: #fbfbfb;
+    height: 650px;
+}
+.container .nav{
+    display: flex;
+    margin-top: 1%;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container .nav img{
+    margin-left: 12%;
+}
+.container .nav .signin{
+    margin-left: 50%;
+    border:solid silver;
+    background-color:white;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20%;
+}
+.container .nav .signup{
+    margin-left: 2%;
+    border:solid black;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20%;
+}
+.container .nav img:hover{
+    cursor: pointer;
+}
+.container .nav .signin:hover{
+    cursor: pointer;
+}
+.container .nav .signup:hover{
+    cursor: pointer;
+}
+/*  */
+/* .container .anyThing{} */
+.container .anyThing h1{
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.container .anyThing .enterAddress svg{
+    margin-left: 36%;
+    border: solid white;
+    color: black;
+    background-color: white;
+    padding: 18.5px;
+}
+.container .anyThing .enterAddress{
+    display: flex;
+}
+
+.container .anyThing .enterAddress input{
+    margin-left: 0%;
+    height: 54px;
+    /* background: url(./image/location.png) no-repeat scroll  8px 7px; */
+    /* padding-left:50px; */
+    /* background-size: 30px; */
+    border: 2px solid white;
+}
+
+.container .anyThing .material-icons{
+    border: solid#9c1c26;
+    padding: 5px;
+    height: 44px;
+    /* margin-top: px; */
+    font-size: 48px;
+    color: white;
+    background-color: #9c1c26;
+}
+.container .anyThing .material-icons:hover{
+    cursor: pointer;
+}
+
+/* section 2 */
+/* .container2 {} */
+.container2 .cover{
+    display: flex;
+    padding: 90px 180px 90px 180px;
+}
+.container2 .cover .discover h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.container2 .cover .discover p{
+    opacity: 0.8;
+    font-size: 18px;
+}
+.container2 .cover .discover .btn{
+    margin-top: 40px;
+    background-color: #9c1c26;
+    color: white;
+    border:solid #9c1c26; 
+    border-radius: 30%;
+    padding: 12px;
+}
+.container2 .cover .discover .btn:hover{
+    cursor: pointer;
+}
+.container2 .cover img{
+    margin-left: 5%;
+}
+.container2 .area .choose{
+    display: flex;
+}
+.container2 .area .choose h2{
+    margin-left: 13%;
+}
+.container2 .area .choose h5{
+    margin-left: 45%;
+    margin-top: 2%;
+    opacity: 0.8;
+}
+.container2 .area .choose h5:hover{
+    cursor: pointer;
+}
+.container2 .area hr{
+    width: 72%;
+}
+.container2 .area .subAreas{
+    display: flex;
+    padding: 10px 200px 40px 200px;
+    
+}
+.container2 .area .subAreas ul li{
+    list-style-type: none;
+    font-size: 20px;
+    line-height:2.2em;  
+}
+ /* section 3  */
+.container3{
+    background-color: #f0f4c3;
+    padding: 20px 200px 100px 200px;
+    /* height: 100%; */
+}
+
+.container3 h1{
+    margin-top: 100px;
+    margin-bottom: 1%;
+    font-size: 35px;
+}
+.container .anyThing .enterAddress svg{
+    margin-left: 36%;
+    border: solid white;
+    color: black;
+    background-color: white;
+    padding: 18.5px;
+}
+.container3 .enterAddress{
+    display: flex;
+}
+.container3 .enterAddress input{
+    height: 45px;
+    margin-left: 28%;
+    background: url(./image/location.png) no-repeat scroll  8px 7px;
+    background-size: 30px;
+    border: 2px solid silver;
+    padding-left:50px;
+    background-color: white;
+    
+}
+.container3 .enterAddress .material-icons{
+    border: solid #9c1c26;
+    background-color: #9c1c26;
+    color: white;
+    padding: 5px;
+    font-size: 35px;
+}
+.container3 .enterAddress .material-icons:hover{
+    cursor: pointer;
+}
+
+/* Final Section */
+.final{
+    padding: 4% 10% 2% 10%;
+    color: white;
+    background-color: black;
+}
+.final .reliable{
+    font-family: sans-serif;
+}
+.final .reliable h3{
+    opacity: 0.5;
+}
+.final .reliable p{
+    opacity: 0.5;
+}
+.final .reliable p small{
+    font-weight: bolder;
+} 
+.final .reliable p small:hover{
+    cursor: pointer;
+}
+.final .reliable hr{
+    opacity: 0.5;
+}
+.final .reliable .associates{
+    display: flex;
+    line-height: 40px;
+    list-style: none;
+
+}
+.final .reliable .associates .empty{
+    margin-left: 0%;
+}
+.final .reliable .associates .myBukka{
+    margin-left: 5%;
+}
+.final .reliable .associates .myBukka ul li{
+    list-style: none;
+    opacity: 0.5;
+}
+.final .reliable .associates .myBukka ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.final .reliable .associates .partners{
+    margin-left: 5%;
+}
+.final .reliable .associates .partners ul li{
+    list-style: none;
+    opacity: 0.5;
+}
+.final .reliable .associates .partners ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.final .reliable .associates .fleet{
+    margin-left: 5%;
+}
+.final .reliable .associates .fleet ul li{
+    list-style: none;
+    opacity: 0.5;
+}
+.final .reliable .associates .fleet ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.final .reliable .associates .followUs{
+    margin-left: 5%;
+}
+.final .reliable .associates .followUs ul li{
+    list-style: none;
+    opacity: 0.5;
+}
+.final .reliable .associates .followUs ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.final .reliable .associates .cities{
+    margin-left: 5%;
+}
+.final .reliable .associates .cities ul li{
+    list-style: none;
+    opacity: 0.5;
+}
+.final .reliable .associates .cities ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.final .reliable footer{
+    margin-top: 10%;
+    opacity: 0.5;
+}
+
